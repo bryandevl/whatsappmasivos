@@ -26,6 +26,8 @@ import { EnvioDetalle } from './entities/envio-detalle.entity';
 import { RespuestaMensaje } from './entities/respuesta-mensaje.entity';
 import { EnviosMasivosController } from './controllers/envios-masivos.controller';
 import { EnviosMasivosService } from './services/envios-masivos.service';
+import { RespuestasMensajesController } from './controllers/respuesta.controller';
+import { RespuestasMensajesService } from './services/respuestas.service';
 
 
 
@@ -63,6 +65,7 @@ import { EnviosMasivosService } from './services/envios-masivos.service';
     ReporteLlamadasServices,
     SesionesService,
     EnviosMasivosService,
+    RespuestasMensajesService,
     
  
   ],
@@ -72,6 +75,7 @@ import { EnviosMasivosService } from './services/envios-masivos.service';
     ClienteController,
     SesionesController,
     EnviosMasivosController,
+    RespuestasMensajesController,
     
   ],
 })
